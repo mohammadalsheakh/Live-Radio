@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/222.jpg">
+    <link rel="shortcut" href="./img/222.jpg">
+    <link rel="apple-touch-icon" href="./img/222.jpg">
+    <link rel="stylesheet" href="Radio.css">
+    <title>Radio</title>
+</head>
+<body>
+    <div id="logodiv">
+        <img src="./img/logo3.jpg" id="logoimage" alt="">
+        <h2 id="liveredia">LIVE RADIO</h2>
+        <p id="songname"></p>
+    </div>
+    <div id="control">
+        <div id="buttonsdiv">
+            <a href="#"><img src="./img/a3.png" class="playbuttons" alt="" id="gobefore"></a>
+            <a href="#"><img src="./img/a1.png" class="playbuttons" alt="" id="play_pause"></a>
+            <a href="#"><img src="./img/a2.png" class="playbuttons" alt="" id="goafter"></a>
+            <audio src="http://rs.hadara.ps:8010/;stream.mp3&13202692901&duration=99999&id=scplayer&autostart=true" id="radiofile"></audio>
+        </div>
+        <div id="audiocontrol">
+            <p id="volume">Volume</p>
+            <input type="range" class="control" id="volume_range" >
+            <p id="speed">Speed</p>
+            <input type="range" class="control" id="speed_range" max="200" min="0">
+        </div>
+        <div id="color_choser">
+            <button class="chose_color colore1" id="color1"></button>
+            <button class="chose_color colore2" id="color2"></button>
+            <button class="chose_color colore3" id="color3"></button>
+            <button class="chose_color colore4" id="color4"></button>
+        </div>
+        <div id="sites">
+            <a href="#"><img src="./img/googleplay.png" alt="" class="stiesimage"></a>
+            <a href="#"><img src="./img/music.png" alt="" class="stiesimage"></a>
+        </div>
+    </div>
+    
+    
+
+
+
+    <script src="Radiojs.js"></script>
+</body>
+</html>
